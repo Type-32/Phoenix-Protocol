@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec236da174a09f2468714c004e0f7581, type: 3}
+  m_Name: M16
+  m_EditorClassIdentifier: 
+  itemName: M-16
+  itemDescription: Assault Rifle
+  itemIcon: {fileID: 21300000, guid: f6ee87a218b00694597747b49aaaa3dd, type: 3}
+  equippedByDefault: 0
+  unlockingLevel: 1
+  requiresPurchase: 0
+  overrideUnlockingLevel: 0
+  purchasePrice: 100
+  weaponPrefab: {fileID: 6788626819295025767, guid: 1ab44881012e74c569c4022e44f50f78,
+    type: 3}
+  weaponType: 0
+  weaponProjectile: {fileID: 0}
+  maxAmmoPerMag: 30
+  magazineCount: 5
+  damage: 26
+  range: 200
+  reloadTime: 2.5
+  impactForce: 12
+  fireRate: 12.4
+  FOVMultiplier: 1.1
+  hipfireSpread: 1
+  rechamberDelay: 0.1
+  shellEjectionDelay: 0
+  boltRecoveryDuration: 1.5
+  aimSpeed: 5
+  damagePerPellet: 10
+  pelletsPerFire: 1
+  reloadTimePerPellet: 0.8
+  maxDurability: 2500
+  durationCostPerUse: 10
+  isEnabled: 1
+  isMelee: 0
+  isExplosive: 0
+  isArmorPenetrative: 0
+  isSniperProperties: 0
+  enableAutomatic: 1
+  enableBurst: 0
+  enableSingle: 1
+  hasHipfireInaccuracy: 1
+  ejectCasingAfterRechamber: 0
+  reloadByBullet: 0
+  useRechamberClipAudioList: 1
+  allowMagazineUpgrades: 1
+  allowDamageUpgrades: 1
+  allowRangeUpgrades: 1
+  allowCatridgeUpgrades: 1
+  allowReloadUpgrades: 1
+  allowADSUpgrades: 1
+  allowHipfireUpgrades: 1
+  allowDurabilityUpgrades: 1
+  allowRecoilUpgrades: 1
+  allowRepairs: 1
+  automaticLimits: 1
+  bassClips:
+  - {fileID: 8300000, guid: 31517f8c7e8b5cd4b9046790ddbee2fc, type: 3}
+  fireClips:
+  - {fileID: 8300000, guid: d56d4ee170356d34285d0391b34cf01d, type: 3}
+  - {fileID: 8300000, guid: 36324a7e02e2aa64abf33398b5e205c3, type: 3}
+  - {fileID: 8300000, guid: 7888b3c6c14db674fb6e816e38ec79bc, type: 3}
+  - {fileID: 8300000, guid: f440d0de38c84bd4a98384951bab5ecc, type: 3}
+  - {fileID: 8300000, guid: 2f4f0630177707d4fbdd26f09de1f862, type: 3}
+  - {fileID: 8300000, guid: 3b4aeef74e0de3d48bb865e5eefa411e, type: 3}
+  silencedFireClips:
+  - {fileID: 8300000, guid: f12b5b8106832a048851fa14ff5b3ebf, type: 3}
+  - {fileID: 8300000, guid: 603508e8d4506884f9e08d7b309999e4, type: 3}
+  - {fileID: 8300000, guid: 5e3ac9e343d7cd24f88e43e418c369df, type: 3}
+  - {fileID: 8300000, guid: 1f2619f82d6b64f44ba27d65ca8a7ae6, type: 3}
+  - {fileID: 8300000, guid: f4a25d00c708ed440aa732094014dba8, type: 3}
+  - {fileID: 8300000, guid: 026bb1662e75e264fbe47f126ba5f2c5, type: 3}
+  mechClips:
+  - {fileID: 8300000, guid: 153471ec45a2ae149844eeb781923d8d, type: 3}
+  - {fileID: 8300000, guid: 606069b601c0c304ba5c8471beb77173, type: 3}
+  - {fileID: 8300000, guid: bfb41de65aa97274ab093bd357dc2731, type: 3}
+  - {fileID: 8300000, guid: 13f1ac676d17f814ca247cc7a83875fc, type: 3}
+  - {fileID: 8300000, guid: b7de4ef623acdbe4c85f8243e23fcaf9, type: 3}
+  - {fileID: 8300000, guid: 1ac8561378ea7c24cba781ed65d728d0, type: 3}
+  NPC_FireClips:
+  - {fileID: 8300000, guid: dee8813058badac4ebcab05034a17402, type: 3}
+  - {fileID: 8300000, guid: 546e56e9e27cb694cb22d3001bbabebe, type: 3}
+  - {fileID: 8300000, guid: 0318ac955de51174da93b64319849ba5, type: 3}
+  - {fileID: 8300000, guid: 61ecf759da1830b47923d77248558a36, type: 3}
+  - {fileID: 8300000, guid: d649a8cdd1ca38843984009c8b298be6, type: 3}
+  - {fileID: 8300000, guid: 4a7a5e677715c774a99e7b9ed6ab012b, type: 3}
+  NPC_SilencedFireClips:
+  - {fileID: 8300000, guid: 40dc3a06e13fedc4a8b028309165632b, type: 3}
+  - {fileID: 8300000, guid: 7ed534879aa0afe45b105715d625e3ac, type: 3}
+  - {fileID: 8300000, guid: e6bc85e8add7bdc4f94a67676bf530b3, type: 3}
+  - {fileID: 8300000, guid: 2a2f1f9a966424a4fb7c24d0a25fed51, type: 3}
+  - {fileID: 8300000, guid: e2059607717763a40b69d524c5351b85, type: 3}
+  - {fileID: 8300000, guid: 1b07504fb571a244d83f7ea1ed779b07, type: 3}
+  rechamberClips: []
+  rechamberStart: {fileID: 8300000, guid: 6fb35db69a9a4134788420a29239e8b3, type: 3}
+  rechamberEnd: {fileID: 8300000, guid: fa8b011429de52644bda5899f8851214, type: 3}
+  pullBolt: {fileID: 0}
+  pullMagazine: {fileID: 8300000, guid: bca39689f74e9a645b0772cf6251cdcb, type: 3}
+  insertMagazine: {fileID: 8300000, guid: d33f4d913d02c8f488612522a221e52f, type: 3}
+  recoverBolt: {fileID: 0}
+  fullBolt: {fileID: 0}
+  slapGun: {fileID: 8300000, guid: 90e6f295bd831ba4cb1f6bd36d879a33, type: 3}
+  insertRound: {fileID: 0}
+  raiseGun: {fileID: 0}
+  aimIn: {fileID: 0}
+  aimOut: {fileID: 0}
+  applicableVariants:
+  - {fileID: 11400000, guid: c8ba523bb7d17f243b7e765473493fcd, type: 2}
+  - {fileID: 11400000, guid: ec6daf5a54a766f4fa8667f657cfd2ea, type: 2}
+  - {fileID: 11400000, guid: 596a39eec3a1009459c97e065db56423, type: 2}
+  - {fileID: 11400000, guid: 970292e95df66944684aebc69abbdced, type: 2}
+  - {fileID: 11400000, guid: a69c14a1eb812c844b2627ca13bdcc3b, type: 2}
+  applicableAttachments:
+  - {fileID: 11400000, guid: ad8463e9fe5f6094c8249b9ad91b59da, type: 2}
+  - {fileID: 11400000, guid: 18c69c5a9f561a04eb7b4cf7de51fda1, type: 2}
+  - {fileID: 11400000, guid: 5d4ea03721058124f90295b220f740d0, type: 2}
+  - {fileID: 11400000, guid: 8eb85bee56b46524fb589d5f002ebe45, type: 2}
+  - {fileID: 11400000, guid: 86643a13bae856049889c6151d4d574d, type: 2}
+  - {fileID: 11400000, guid: 8fcd0292106c55f4d876bd2db0c1b8ac, type: 2}
+  - {fileID: 11400000, guid: 40f4c67b7e568b9449ed65d37ab095e3, type: 2}

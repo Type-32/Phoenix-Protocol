@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec236da174a09f2468714c004e0f7581, type: 3}
+  m_Name: LMR-08
+  m_EditorClassIdentifier: 
+  itemName: LMR-08
+  itemDescription: Sniper Rifle
+  itemIcon: {fileID: 21300000, guid: 18604e2c1148aa246a4d5c33c54c7b7e, type: 3}
+  equippedByDefault: 0
+  unlockingLevel: 12
+  requiresPurchase: 1
+  overrideUnlockingLevel: 0
+  purchasePrice: 6800
+  weaponPrefab: {fileID: 6788626819295025767, guid: 7c8bab39aa7dc4e4baccabe37ff8d970,
+    type: 3}
+  weaponType: 7
+  weaponProjectile: {fileID: 0}
+  maxAmmoPerMag: 5
+  magazineCount: 3
+  damage: 90
+  range: 300
+  reloadTime: 5
+  impactForce: 20
+  fireRate: 1.2
+  FOVMultiplier: 1.5
+  hipfireSpread: 0.8
+  rechamberDelay: 0.5
+  shellEjectionDelay: 0.25
+  boltRecoveryDuration: 1.4
+  aimSpeed: 5
+  damagePerPellet: 10
+  pelletsPerFire: 1
+  reloadTimePerPellet: 0.8
+  maxDurability: 2500
+  durationCostPerUse: 10
+  isEnabled: 1
+  isMelee: 0
+  isExplosive: 0
+  isArmorPenetrative: 0
+  isSniperProperties: 1
+  enableAutomatic: 0
+  enableBurst: 0
+  enableSingle: 1
+  hasHipfireInaccuracy: 1
+  ejectCasingAfterRechamber: 1
+  reloadByBullet: 0
+  useRechamberClipAudioList: 1
+  allowMagazineUpgrades: 1
+  allowDamageUpgrades: 1
+  allowRangeUpgrades: 1
+  allowCatridgeUpgrades: 1
+  allowReloadUpgrades: 1
+  allowADSUpgrades: 1
+  allowHipfireUpgrades: 1
+  allowDurabilityUpgrades: 1
+  allowRecoilUpgrades: 1
+  allowRepairs: 1
+  automaticLimits: 1
+  bassClips:
+  - {fileID: 8300000, guid: 0d88164ddcb598c4ba84a1cc4a00999d, type: 3}
+  fireClips:
+  - {fileID: 8300000, guid: 86ae713ed054bcd41b87a464859543a5, type: 3}
+  - {fileID: 8300000, guid: 2bd73e8beb5b51b4da52a4897cfa6c00, type: 3}
+  - {fileID: 8300000, guid: 930ebacae8a4a5c43938546fe937f66f, type: 3}
+  - {fileID: 8300000, guid: 1f85dcfc4a28e14498b5d55ad2212f3a, type: 3}
+  - {fileID: 8300000, guid: 0e0132364e433044085bf3d06fed6e02, type: 3}
+  - {fileID: 8300000, guid: 81ac1d6ea9cdac94bbcfc31e8c2d8453, type: 3}
+  silencedFireClips:
+  - {fileID: 8300000, guid: 0404de10ce0c630489bae5a1813c5979, type: 3}
+  - {fileID: 8300000, guid: 3311f1efe7ddcb24da92ff798a5ec892, type: 3}
+  - {fileID: 8300000, guid: a7f33b674d6929544a6217af1055049c, type: 3}
+  - {fileID: 8300000, guid: 20699b43e38188940a2d6f29130f8ce2, type: 3}
+  - {fileID: 8300000, guid: 20714f64b8942364fa43c1aac4944397, type: 3}
+  - {fileID: 8300000, guid: 0745abf7366adf146bac43249d9e2c00, type: 3}
+  mechClips:
+  - {fileID: 8300000, guid: cf3596975f469b348870b80dee3ff5eb, type: 3}
+  NPC_FireClips:
+  - {fileID: 8300000, guid: c5ecd88b761bfcc428b99a3f514b069c, type: 3}
+  - {fileID: 8300000, guid: a9cfd3f77e5643542a7bc9d8fa5febaa, type: 3}
+  - {fileID: 8300000, guid: 7b4dc5e6fcf1c384896489e9b007dfeb, type: 3}
+  - {fileID: 8300000, guid: 8dd4294fb0b880149944f83f5540e797, type: 3}
+  - {fileID: 8300000, guid: 80aadb540aef41947aeef1bcda98cca2, type: 3}
+  - {fileID: 8300000, guid: 70607471790f6e8439a694bc1cff43e6, type: 3}
+  NPC_SilencedFireClips:
+  - {fileID: 8300000, guid: e4bb3838fef83b04b94baacd87cf63bd, type: 3}
+  - {fileID: 8300000, guid: bcc8960dd8e2bca4ca1f8bec2d5d941c, type: 3}
+  - {fileID: 8300000, guid: c73d0d70fb16d464cb3137ef1fbd8061, type: 3}
+  - {fileID: 8300000, guid: 841b383eb4c329048b1065b512211ac7, type: 3}
+  - {fileID: 8300000, guid: 4b7eef3333a5e7e42ba3f269252830a7, type: 3}
+  - {fileID: 8300000, guid: f421278e3a81e6a45af31e510c0b018c, type: 3}
+  rechamberClips:
+  - {fileID: 8300000, guid: 32d4b9551d02b884cb735371dc03252f, type: 3}
+  rechamberStart: {fileID: 8300000, guid: 1e9afa7c9747092408af554bfffb685d, type: 3}
+  rechamberEnd: {fileID: 0}
+  pullBolt: {fileID: 0}
+  pullMagazine: {fileID: 0}
+  insertMagazine: {fileID: 0}
+  recoverBolt: {fileID: 8300000, guid: 025868c0583eb3148a96fa8165f3baf1, type: 3}
+  fullBolt: {fileID: 0}
+  slapGun: {fileID: 0}
+  insertRound: {fileID: 0}
+  raiseGun: {fileID: 0}
+  aimIn: {fileID: 0}
+  aimOut: {fileID: 0}
+  applicableVariants:
+  - {fileID: 11400000, guid: b2d5d7e6bc76e1e4fb0ab05319b71506, type: 2}
+  - {fileID: 11400000, guid: 12ff6e051f843db4a838a5eb117ab1c1, type: 2}
+  - {fileID: 11400000, guid: eb2fdc7cecc9eaf4287232b0dd891d77, type: 2}
+  - {fileID: 11400000, guid: 2ac854b10c9b18b4ebe74bc281940929, type: 2}
+  - {fileID: 11400000, guid: 580feccbb11932446ae5f39d08c20c43, type: 2}
+  applicableAttachments:
+  - {fileID: 11400000, guid: 8eb85bee56b46524fb589d5f002ebe45, type: 2}
+  - {fileID: 11400000, guid: 86643a13bae856049889c6151d4d574d, type: 2}
+  - {fileID: 11400000, guid: 8fcd0292106c55f4d876bd2db0c1b8ac, type: 2}
+  - {fileID: 11400000, guid: 40f4c67b7e568b9449ed65d37ab095e3, type: 2}
+  - {fileID: 11400000, guid: eaa3091aa3f59c1458f80c48eac2633e, type: 2}
+  - {fileID: 11400000, guid: 18c69c5a9f561a04eb7b4cf7de51fda1, type: 2}
