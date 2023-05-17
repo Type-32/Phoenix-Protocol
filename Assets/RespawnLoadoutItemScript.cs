@@ -2,7 +2,6 @@ using Photon.Pun;
 using UnityEngine;
 using UnityEngine.UI;
 using PrototypeLib.OnlineServices.PUNMultiplayer.ConfigurationKeys;
-using Unity.Services.Lobbies.Models;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 public class RespawnLoadoutItemScript : MonoBehaviour

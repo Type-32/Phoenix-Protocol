@@ -2,8 +2,6 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
-using Unity.Services.CloudSave;
-using Unity.Services.Authentication;
 using Unity.Services.Core;
 using System;
 using System.Threading.Tasks;

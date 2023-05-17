@@ -96,7 +96,6 @@ public class PlayerControls : MonoBehaviour
         Gravity();
 
         Movement();
-        CameraFOV();
         InteractIndicatorCheck();
         KeybindedActions();
 
@@ -155,11 +154,6 @@ public class PlayerControls : MonoBehaviour
     {
         player.stats.onGround = Physics.CheckSphere(player.groundCheck.position, player.stats.groundDist, player.groundMask);
         if (player.stats.onGround && velocity.y < 0) velocity.y = -2f;
-    }
-    void CameraFOV()
-    {
-        return;
-        if (!player.stats.isAiming) player.fpsCam.playerMainCamera.fieldOfView = player.stats.isSprinting ? Mathf.Lerp(player.fpsCam.playerMainCamera.fieldOfView, sprintFOV, player.stats.sprintFOVChangeDuration * Time.deltaTime) : Mathf.Lerp(player.fpsCam.playerMainCamera.fieldOfView, normalFOV, player.stats.sprintFOVChangeDuration * Time.deltaTime);
     }
     void KeybindedActions()
     {

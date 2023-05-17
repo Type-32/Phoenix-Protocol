@@ -12,8 +12,6 @@ using TMPro;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
 using LauncherManifest;
 using Unity.Services.Core;
-using Unity.Services.Authentication;
-using Unity.Services.CloudSave;
 using PrototypeLib.Modules.FileOperations.IO;
 using PrototypeLib.OnlineServices.PUNMultiplayer.ConfigurationKeys;
 using UserConfiguration;

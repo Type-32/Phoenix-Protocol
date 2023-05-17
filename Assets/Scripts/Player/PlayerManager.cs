@@ -11,7 +11,6 @@ using Hashtable = ExitGames.Client.Photon.Hashtable;
 using UserConfiguration;
 using UnityEngine.Rendering;
 using PrototypeLib.Modules.FileOperations.IO;
-using UnityEngine.Rendering.Universal;
 using PrototypeLib.OnlineServices.PUNMultiplayer.ConfigurationKeys;
 using Unity.VisualScripting;
 
@@ -331,11 +330,12 @@ public class PlayerManager : MonoBehaviour
     }
     void CreateController()
     {
+        /*
         cameraObject.gameObject.TryGetComponent(out UniversalAdditionalCameraData cameraData);
         if (cameraData)
         {
             cameraData.renderPostProcessing = false;
-        }
+        }*/
         audioListener.enabled = false;
         respawning = true;
         respawnButton.interactable = false;
@@ -435,6 +435,7 @@ public class PlayerManager : MonoBehaviour
         PhotonNetwork.LocalPlayer.SetCustomProperties(hash);
         if (pv.IsMine) SynchronizeValues(kills, deaths);
         hurtVolume.weight = 1f;
+        /*
         if (cameraObject != null)
         {
             cameraObject.gameObject.TryGetComponent(out UniversalAdditionalCameraData cameraData);
@@ -442,7 +443,7 @@ public class PlayerManager : MonoBehaviour
             {
                 cameraData.renderPostProcessing = true;
             }
-        }
+        }*/
     }
     public void Die(bool isSuicide, int ViewID, string killer = null, float delayObjectDestroy = 3f)
     {
