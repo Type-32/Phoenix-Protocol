@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8042380824551210002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8042380824551210012}
+  - component: {fileID: 4771752115949659535}
+  - component: {fileID: 2501908592190297539}
+  - component: {fileID: 6889659652141219014}
+  m_Layer: 0
+  m_Name: MatchManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8042380824551210012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8042380824551210002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4771752115949659535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8042380824551210002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d878d31fd7e46c24cafaaf6b94f3e5a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pv: {fileID: 2501908592190297539}
+  players: []
+  gameStarted: 0
+  gameEnded: 0
+  roomMode: 0
+  totalTime: 0
+  maxKillLimit: 0
+  scoreboard: {fileID: 0}
+  allowDownedState: 0
+  topPlayer: {fileID: 0}
+  localClientPlayer: {fileID: 0}
+  masterClientPlayer: {fileID: 0}
+  teamBlue: []
+  teamRed: []
+  teamBluePoints: 0
+  teamRedPoints: 0
+  dropTimes: 1
+--- !u!114 &2501908592190297539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8042380824551210002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &6889659652141219014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8042380824551210002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5079ccd730aa05468a4cfc449f03c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: StandardFireMuzzleFlash
+    prefab: {fileID: 7063503430995706758, guid: ed915f43954c4074db47c6eb8385cd0e,
+      type: 3}
+    size: 300
+  - tag: ShotgunFireMuzzleFlash
+    prefab: {fileID: 4051661042274016862, guid: 8b4c21df220e5c34693ea0b40398b539,
+      type: 3}
+    size: 100
+  - tag: MarksmanFireMuzzleFlash
+    prefab: {fileID: 2759088843643684373, guid: 454b4ccf80115044994d0e186b7a740d,
+      type: 3}
+    size: 100
+  - tag: BloodSplatter
+    prefab: {fileID: 1026642433091512, guid: 6558e6ccacf76a042ba836849f588ed7, type: 3}
+    size: 300
+  - tag: CritBloodSplatter
+    prefab: {fileID: 1489431029902184, guid: a6c2e86eed73abb4c8b5062f1c7f1a13, type: 3}
+    size: 300
+  - tag: BulletImpactEffect
+    prefab: {fileID: 4867200395551333757, guid: a621f7e3952136e44a4fe8f1d344ee0c,
+      type: 3}
+    size: 300
+  - tag: BulletTrailEffect
+    prefab: {fileID: 8094478819801842890, guid: 4d24d8f003e2e87469a06ea3a0cc7c72,
+      type: 3}
+    size: 300
